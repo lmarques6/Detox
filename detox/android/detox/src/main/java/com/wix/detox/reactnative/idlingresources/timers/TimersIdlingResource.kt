@@ -51,6 +51,6 @@ class TimersIdlingResource @JvmOverloads constructor(
     private fun checkIdle() = interrogationStrategy.isIdleNow()
 
     companion object {
-        const val LOG_TAG = "TimersIdlingResource"
+        internal const val LOG_TAG = "TimersIdlingResource"
     }
 }
